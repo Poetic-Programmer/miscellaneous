@@ -1,0 +1,48 @@
+﻿Build started 16/05/2013 13:23:27.
+     1>Project "C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\TheGunslingerFollowed\TheGunslingerFollowed.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\TheGunslingerFollowed.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D "_ITERATOR_DEBUG_LEVEL = 0" /D WIN32 /D NODEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt D3DApp.cpp
+         D3DApp.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\Release\TheGunslingerFollowed.exe" /INCREMENTAL:NO /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TheGunslingerFollowed.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\Release\TheGunslingerFollowed.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\Release\TheGunslingerFollowed.lib" /MACHINE:X86 Release\BlendMap.obj
+         Release\BlurFilter.obj
+         Release\Camera.obj
+         Release\D3DApp.obj
+         Release\D3DUtil.obj
+         Release\Effects.obj
+         Release\GeometryGenerator.obj
+         Release\Heightmap.obj
+         Release\Hut.obj
+         Release\LightHelper.obj
+         Release\MainApp.obj
+         Release\MathHelper.obj
+         Release\MohaineDesert.obj
+         Release\Noise.obj
+         Release\ParticleSystem.obj
+         Release\RendererTexture.obj
+         Release\RenderStates.obj
+         Release\SceneTimer.obj
+         Release\Sky.obj
+         Release\Terrain.obj
+         Release\TextureManager.obj
+         Release\Vector2.obj
+         Release\Vector3.obj
+         Release\Vertex.obj
+     1>Effects11d.lib(EffectAPI.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in BlendMap.obj
+     1>Effects11d.lib(EffectAPI.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>Effects11d.lib(EffectNonRuntime.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in BlendMap.obj
+     1>Effects11d.lib(EffectLoad.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in BlendMap.obj
+     1>Effects11d.lib(EffectReflection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in BlendMap.obj
+     1>Effects11d.lib(d3dx11dbg.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in BlendMap.obj
+     1>Effects11d.lib(d3dxGlobal.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in BlendMap.obj
+     1>Effects11d.lib(EffectRuntime.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in BlendMap.obj
+            Creating library C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\Release\TheGunslingerFollowed.lib and object C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\Release\TheGunslingerFollowed.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\Release\TheGunslingerFollowed.exe : fatal error LNK1319: 7 mismatches detected
+     1>Done Building Project "C:\Users\Michael\documents\visual studio 2010\Projects\TheGunslingerFollowed\TheGunslingerFollowed\TheGunslingerFollowed.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.34
